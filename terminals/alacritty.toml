@@ -1,6 +1,4 @@
 [window]
-# Window padding (changes require restart)
-# Blank space added around the window in pixels.
 padding.x = 20
 padding.y = 20
 # Spread additional padding evenly around the terminal content (optional)
