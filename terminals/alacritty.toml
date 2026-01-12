@@ -1,1 +1,18 @@
-/home/kant/.config/alacritty.toml
+[window]
+# Window padding (changes require restart)
+# Blank space added around the window in pixels.
+padding.x = 20
+padding.y = 20
+# Spread additional padding evenly around the terminal content (optional)
+dynamic_padding = true
+
+# Background opacity as a floating point number from 0.0 to 1.0.
+# A value of 0.0 is completely transparent, 1.0 is opaque.
+opacity = 0.1 # This is extremely transparent; adjust as desired (e.g., 0.8 for a lighter effect)
+
+# Request compositor to blur content behind transparent windows (macOS, Windows, and some Linux compositors)
+blur = true
+
+[font]
+# Must be at the top level of [font]
+size = 9
