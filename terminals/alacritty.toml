@@ -3,7 +3,7 @@ padding.x = 20
 padding.y = 20
 dynamic_padding = true
 
-opacity = 0.1 # This is extremely transparent; adjust as desired (e.g., 0.8 for a lighter effect)
+opacity = 0.1
 
 blur = true
 
