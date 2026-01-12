@@ -1,0 +1,58 @@
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrains Mono Nerd Font";
+    font-size: 9px;
+    min-height: 0;
+}
+
+
+window#waybar {
+    /* Use rgba for transparency; 0.5 is 50% opacity */
+    background-color: rgba(27, 26, 24, 0.5); 
+    border: none;
+}
+
+
+/* Individual module styling */
+#clock,
+#pulseaudio,
+#backlight,
+#battery,
+#network,
+#tray, 
+#workspaces{
+    padding: 0 5px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+
+
+/* Hide empty modules to maintain the thin line */
+window#waybar.empty {
+    background-color: transparent;
+}
+
+
+#workspaces {
+    background-color: transparent;
+    margin: 0 4px;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: #ffffff; /* White text for workspace numbers */
+    background: transparent;
+    border-bottom: 2px solid transparent;
+}
+
+#workspaces button.active {
+    border-bottom: 2px solid #ffffff; /* underline active workspace */
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b; /* Red for urgent notifications */
+}
+
