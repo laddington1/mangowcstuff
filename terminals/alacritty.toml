@@ -1,11 +1,1 @@
-[window]
-padding.x = 20
-padding.y = 20
-dynamic_padding = true
-
-opacity = 0.1 
-
-blur = true
-
-[font]
-size = 9
+/home/kant/.config/alacritty.toml
